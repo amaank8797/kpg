@@ -38,12 +38,12 @@ function Navbar() {
                                 About Us
                             </Link>
                         </li>
-                        <li classname="button">
+                        <li className="navitem">
                             <Link to='/Bas' className="navlink">
                                 Sell
                             </Link>
                         </li>
-                        <li classname="button ">
+                        <li className="button ">
                             <Link to='/Signup' className="navlink">
                                 Login
                             </Link>
