@@ -23,6 +23,7 @@
 .navlinks{
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
 
 .navitem{
@@ -31,7 +32,6 @@
     text-decoration: none;
     
 }
-<<<<<<< HEAD
 
 a{
     text-decoration: none;
@@ -41,12 +41,6 @@ a{
     display: flex;
     flex-direction: none;
     margin-left: 00px;
-}
-.Button{
-=======
-a{
->>>>>>> 73d33847608c6e5207677af6018f9d75af609666
-    text-decoration: none;
 }
 
 
