@@ -1,4 +1,14 @@
+*{
+    margin: 0;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
 }
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+}
+
