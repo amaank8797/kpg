@@ -26,7 +26,6 @@
     text-decoration: none;
     
 }
-<<<<<<< HEAD
 
 .button{
     display: flex;
@@ -34,18 +33,8 @@
     margin-left: 00px;
 }
 .Button{
+    display: flex;
     text-decoration: none;
+    border: none;
     
 }
-=======
-.Button1{
-    display: flex;
-    text-decoration: none;
-    border: none;
-}
-.Button2{
-    display: flex;
-    text-decoration: none;
-    border: none;
-}
->>>>>>> 6207aa2158584e046ac44650a8763571696bd94d
