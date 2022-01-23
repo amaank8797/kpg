@@ -11,14 +11,6 @@
     background-color: rgb(150, 223, 214);
 }
 
-.logotext{
-
-}
-
-.navlink{
-    margin-left: 20%;
-    
-}
 
 .navlinks{
     display: flex;
@@ -27,7 +19,7 @@
 }
 
 .navitem{
-    margin-right: 20px;
+    margin-right: 50px;
     list-style-type: none;
     text-decoration: none;
     
@@ -43,6 +35,9 @@ a{
     margin-left: 00px;
 }
 
+.Button{
+    text-decoration: none;
+}
 
 .button{
     list-style-type: none;
