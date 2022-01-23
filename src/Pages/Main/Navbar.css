@@ -1,7 +1,14 @@
+*{
+    margin: 0;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
 }
-.navlink{
-    display: block;
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
 }
+
