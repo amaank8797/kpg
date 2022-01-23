@@ -16,7 +16,7 @@ function Navbar() {
 
                 {/* Home, Catageries, Conatct, About */}
 
-                <div className="navlink">
+                <div className="menu">
                     <ul className="navlinks" >
                         <li className="navitem">
                             <Link to='/' className="navlink">
@@ -38,13 +38,13 @@ function Navbar() {
                                 About Us
                             </Link>
                         </li>
-                        <li className="navitem">
-                            <Link to='/Bas' className="navlink">
-                                Sell
+                        <li className="navitem button1">
+                            <Link to='/Bas' className="navl">
+                                Become a Seller
                             </Link>
                         </li>
-                        <li className="navitem ">
-                            <Link to='/Signup' className="navlink">
+                        <li className="navitem button">
+                            <Link to='/Signup' className="navl">
                                 Login
                             </Link>
                         </li>

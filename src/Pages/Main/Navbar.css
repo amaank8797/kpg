@@ -1,16 +1,30 @@
 *{
     margin: 0;
-    height: 70px;
+    height: 60px;
     
 }
 
 .navbar{
     display: flex;
     flex-direction: row;
+    align-content: center;
     margin: auto;
-    background-color: rgb(150, 223, 214);
+    background-color: white;
 }
 
+.navlink:hover{
+    color: green;
+    background-color: rgb(176, 187, 187);
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid rgb(117, 115, 115);
+}
+
+.logotext{
+    align-items: center;
+    margin: 10px 280px 10px 80px;
+    color: rgb(129, 127, 127);
+}
 
 .navlinks{
     display: flex;
@@ -19,12 +33,35 @@
 }
 
 .navitem{
-    margin-right: 50px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 30px 20px 20px;
     list-style-type: none;
     text-decoration: none;
+    color: black;
     
 }
 
-a{
+
+a.navlink{
     text-decoration: none;
+    color: black;
+}
+
+a.navl{
+    text-decoration: none;
+    color: aliceblue;
+}
+.button1{
+    margin-left: 150px;
+}
+
+.navl{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: black;
+    
+    
 }
