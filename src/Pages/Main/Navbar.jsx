@@ -43,7 +43,7 @@ function Navbar() {
                                 Sell
                             </Link>
                         </li>
-                        <li className="button ">
+                        <li className="navitem ">
                             <Link to='/Signup' className="navlink">
                                 Login
                             </Link>
