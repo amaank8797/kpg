@@ -10,12 +10,13 @@ import Signin from './Pages/Signin/Signin';
 import Signup from './Pages/Signup/Signup';
 import About from './Pages/About/About';
 import Navbar from './Pages/Main/Navbar';
+import Footer from './Pages/Main/Footer';
 
 function App() {
   return (
     <>
     <Router>
-    <Navbar />
+    <Footer />
     <Switch>
       <Route path='/' exact component={Home} />
       <Route path='/Bas'  component={Bas} />
