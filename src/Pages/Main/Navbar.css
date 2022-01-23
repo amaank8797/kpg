@@ -33,8 +33,11 @@
     margin-left: 00px;
 }
 .Button{
+    text-decoration: none;
+    
+}
+.Button{
     display: flex;
     text-decoration: none;
     border: none;
-    
 }
