@@ -9,7 +9,7 @@ function Navbar() {
 
                 {/* Logo */}
 
-                <div className="logo&text">
+                <div className="logotext">
                     <i className="logo"></i>
                     <h1>KPG</h1>
                 </div>
@@ -38,13 +38,17 @@ function Navbar() {
                                 About Us
                             </Link>
                         </li>
+                        <li classname="button">
+                            <Link to='/Bas' className="navlink">
+                                Sell
+                            </Link>
+                        </li>
+                        <li classname="button ">
+                            <Link to='/Signup' className="navlink">
+                                Login
+                            </Link>
+                        </li>
                     </ul>
-
-                    {/* Button ==>  Beccame a Seller, Login */}
-                    <div className="button">
-                        <button className="Button"> Became a Seller</button>
-                        <button className="Button"> Login</button>
-                    </div>
                 </div>
                 
             </div>
