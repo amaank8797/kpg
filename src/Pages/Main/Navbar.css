@@ -10,9 +10,12 @@
 .navlinks{
     display: flex;
     flex-direction: row;
-}
-
-.button{
     text-decoration: none;
 }
 
+.navitem{
+    margin-right: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}

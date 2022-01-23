@@ -16,8 +16,8 @@ function Navbar() {
 
                 {/* Home, Catageries, Conatct, About */}
 
-                <div className="navlinks">
-                    <ul>
+                <div className="navlink">
+                    <ul className="navlinks" >
                         <li className="navitem">
                             <Link to='/' className="navlink">
                                 Home
