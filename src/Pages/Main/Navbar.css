@@ -1,10 +1,17 @@
 *{
     margin: 0;
+    height: 80px;
+    
 }
 
 .navbar{
     display: flex;
     flex-direction: row;
+    background-color: rgb(99, 208, 195);
+}
+
+.navlink{
+    margin-left: 20%;
 }
 
 .navlinks{
@@ -16,6 +23,16 @@
 .navitem{
     margin-right: 20px;
     list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.button{
+    display: flex;
+    flex-direction: none;
+    margin-left: 00px;
+}
+.Button{
     text-decoration: none;
     
 }

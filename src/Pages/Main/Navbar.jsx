@@ -42,8 +42,8 @@ function Navbar() {
 
                     {/* Button ==>  Beccame a Seller, Login */}
                     <div className="button">
-                        <button className="Button1"> Became a Seller</button>
-                        <button className="Button2"> Login</button>
+                        <button className="Button"> Became a Seller</button>
+                        <button className="Button"> Login</button>
                     </div>
                 </div>
                 
