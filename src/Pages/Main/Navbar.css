@@ -12,12 +12,12 @@
 
 .navlink{
     margin-left: 20%;
+    
 }
 
 .navlinks{
     display: flex;
     flex-direction: row;
-    text-decoration: none;
 }
 
 .navitem{
@@ -25,6 +25,10 @@
     list-style-type: none;
     text-decoration: none;
     
+}
+
+a{
+    text-decoration: none;
 }
 
 .button{
